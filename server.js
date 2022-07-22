@@ -4,6 +4,7 @@
 // Code based on Hello World function from ZeroMQ guide.
 // https://zguide.zeromq.org/docs/chapter1/
 
+require('dotenv').config();
 const zmq = require('zeromq');
 const { Client } = require("@googlemaps/google-maps-services-js");
 
@@ -11,7 +12,7 @@ const { Client } = require("@googlemaps/google-maps-services-js");
 function geocode(location) {
   const args = {
     params: {
-      key: "AIzaSyAwOaLBmeVS7XSvHBE6nPMb-EJTtst34Es", // Google API Key
+      key: process.env.APIKEY, // Google API Key
       address: location,
     }
   };
