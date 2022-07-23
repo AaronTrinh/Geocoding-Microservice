@@ -1,9 +1,9 @@
 # Geocoding-Microservice
 A microservice for using Google's Geocoding API. Created for CS 361. 
 
-This microservice accepts an address in the form of a string and returns the longitude and latitude corresponding to that address. The geocoding is done by using Google Maps's Geocoding API. For documentation on the API's request and response parameters, please see https://developers.google.com/maps/documentation/geocoding/requests-geocoding. A Google Maps API key will be needed to use this microservice, one can be obtained for free from https://developers.google.com/maps/documentation/javascript/get-api-key. The API key can be manually entered into the server.js file or included in a .env file to maintain security. 
+This microservice accepts an address in the form of a string and returns the longitude and latitude corresponding to that address. The geocoding is done by using Google Maps's Geocoding API. For documentation on the API's request and response parameters, please see [here](https://developers.google.com/maps/documentation/geocoding/requests-geocoding). A Google Maps API key will be needed to use this microservice, one can be obtained for free from [here](https://developers.google.com/maps/documentation/javascript/get-api-key). The API key can be manually entered into the server.js file or included in a .env file to maintain security. 
 
-This microservice uses ZeroMQ to recieve requests and send data. ZeroMQ is an asynchronous messaging library that facilitates communication between different applications. For more information on ZeroMQ and documentation please see https://zguide.zeromq.org/docs/chapter1/.
+This microservice uses ZeroMQ to recieve requests and send data. ZeroMQ is an asynchronous messaging library that facilitates communication between different applications. For more information on ZeroMQ and documentation please see [here](https://zguide.zeromq.org/docs/chapter1/).
 
 **How to request data:**
 
