@@ -40,3 +40,7 @@ After being sent an address, the geocoding microservice will use the Google Maps
 `});`
 
 This is an example of one way you can receive the data. In this example the response is displayed in the client's console and also saved to the result variable for future use. The microservice can be modified to return other geocoding information if needed. Please see the documentation link above for this.
+
+**UML Sequence Diagram**
+
+![UML Sequence Diagram](./UML.jpg)
